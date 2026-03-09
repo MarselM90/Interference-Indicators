@@ -1,4 +1,7 @@
-Interference INDICATORS
+Interference Indicators
+
+![Interference](https://github.com/user-attachments/assets/8acf1728-cbe1-4bdb-9244-2f04aa12e78a)
+
 
 A real-time interference peak meter for the browser. Displays left and right channel levels with gradient colors and peak indicators.
 
