@@ -5,25 +5,19 @@ Interference Indicators
 
 ![int2](https://github.com/user-attachments/assets/c275a19f-f06a-42f7-b876-c1c29007f42b)
 
-
-A real-time interference peak meter for the browser. Displays left and right channel levels with gradient colors and peak indicators.
-
-Download the interferenceindicators.js and /InterferenceIndicators/interferenceindicators.js file from this repository.
-
 Place the file into the /plugins/ directory of your fm-dx-webserver installation.
 
-3.Restart the fm-dx-webserver. And activate the plugin in Admin Panel.
+Restart the fm-dx-webserver. And activate the plugin in Admin Panel.
 
-Features
-Automatically adapts to page theme colors.
+Displays dynamic bars for WAM and USN values.
 
-Disabled on mobile devices.
+Automatic smoothing using the median of the last 3 values.
 
-Browser Support
+Detects the color of an existing button on the page and uses it for the bars.
 
-Desktop: Chrome, Firefox, Edge, Safari
+Supports real-time data via a socket if defined.
 
-Mobile: Disabled
+Bars and labels are fixed on the page and do not interfere with interactive elements.
 
 This plugin was designed with assistance from ChatGPT for code generation and documentation.
 
